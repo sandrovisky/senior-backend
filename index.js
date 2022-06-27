@@ -21,6 +21,12 @@ app.use((req, res, next) => {
 
 app.use(express.json());
 
+
+app.get("", async (req, res) => { 
+  return res.json({message: "ok"})
+ })
+
+
 app.get("/api/movies/count", async (req, res) => {
   try {
     const { title } = req.query;
