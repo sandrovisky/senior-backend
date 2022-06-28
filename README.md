@@ -4,12 +4,19 @@ to run:
  
 YARN
 
-yarn install
-yarn start
+```bash
+$ yarn install
+$ yarn install
+```
 
 NPM
 
-NPM install
-NPM start
+```bash
+$ npm install
+$ npm install
+```
 
-you can create a file ".env" and pass the port where the apliccation will run. See ".envExample"
+You can create a file ".env" and pass the port where the apliccation will run. See ".envExample".
+The server will run on port 3333 if no .env was created and setted.
+
+
